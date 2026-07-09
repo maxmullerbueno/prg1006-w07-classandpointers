@@ -29,3 +29,8 @@ private:
         cout << "Name: " << name << endl;
         cout << "Score: " << score << endl;
     }
+        // Update score
+    void updateScore(int newScore) {
+        score = newScore;
+    }
+};
