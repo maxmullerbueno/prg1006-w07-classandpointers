@@ -34,3 +34,9 @@ private:
         score = newScore;
     }
 };
+
+int main {
+// Default constructor
+
+
+}
