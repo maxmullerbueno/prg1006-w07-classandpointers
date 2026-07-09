@@ -37,6 +37,23 @@ private:
 
 int main {
 // Default constructor
+Player player1;
+    Player *ptr1 = &player1;
+    ptr1->displayDetails();
 
+    cout << endl;
+
+// Constructor with values
+    Player player2(1, "Max", 100);
+    Player *ptr2 = &player2;
+    ptr2->displayDetails();
+
+    cout << endl;
+
+// Update score via pointer
+    ptr2->updateScore(250);
+    ptr2->displayDetails();
+
+    return 0;
 
 }
